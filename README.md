@@ -54,6 +54,21 @@ Task4/
 Detailed methodology → [methodology.md](notes/methodology.md)  
 Analysis of findings → [findings_analysis.md](notes/findings_analysis.md)  
 
+Could not open connection to the host, on port 23: Connect failed
+
+
+---
+
+### **Conclusion**
+This experiment confirmed that Windows Firewall rules can effectively:
+- Block access to a specific service by port number.
+- Restrict connections both locally and remotely.
+
+**Security Relevance:**  
+- Blocking unused or vulnerable ports reduces the attack surface.
+- Helps prevent unauthorized access to legacy services like Telnet.
+
+
 ---
 
 ## **✅ Conclusion**
