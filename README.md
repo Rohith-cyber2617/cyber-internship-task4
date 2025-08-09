@@ -1,33 +1,60 @@
-# Cyber Internship – Task 4: Firewall Setup & Testing
+# Cyber Internship - Task 4  
+**Title:** Firewall Rule Implementation and Testing  
+**Intern Name:** Rachapudi Rohith (Tony)  
+**Task Objective:** Configure firewall rules to block a specific port (Telnet - Port 23) and verify its effectiveness.  
 
-## Objective
-Configure and test basic firewall rules to allow or block network traffic.
+---
 
-## Tools Used
-- **Windows Firewall with Advanced Security**
-- Command Prompt (`telnet`) for testing
-- UFW (Linux equivalent commands documented in `notes/methodology.md`)
+## **📌 Task Overview**  
+This task demonstrates how to:
+1. Enable a Telnet service on the system.
+2. Connect to it locally.
+3. Block the connection using a Windows firewall rule.
+4. Verify that the firewall rule is working.
 
-## Methodology
-1. Viewed existing firewall rules.
-2. Created inbound rule to block TCP port 23 (Telnet).
-3. Tested the block using `telnet`.
-4. Documented Linux equivalent commands for UFW.
-5. Removed the test rule to restore original state.
+---
 
-## Screenshots
-| Step | Image |
-|------|-------|
-| Initial Rules | ![Initial Rules](screenshots/initial_rules.png) |
-| Block Telnet Rule | ![Block Telnet](screenshots/block_telnet.png) |
-| Testing Block | ![Test Block](screenshots/test_block.png) |
-| Rule Removal | ![Remove Rule](screenshots/remove_rule.png) |
+## **🛠 Tools Used**
+- **Windows 10 VM** (inside VMware)
+- **Windows Defender Firewall**
+- **Telnet Client & Telnet Server** (Windows Features)
 
-## Key Learnings
-- Difference between **inbound** and **outbound** rules.
-- Why blocking insecure ports (e.g., Telnet) is important.
-- Linux UFW makes firewall rule management simple with commands like:
-  ```bash
-  sudo ufw allow 22/tcp
-  sudo ufw deny 23/tcp
-  sudo ufw status
+---
+
+## **📂 Repository Structure**
+Task4/
+│── README.md
+│── notes/
+│ ├── methodology.md
+│ ├── findings_analysis.md
+│── screenshots/
+│ ├── telnet_enabled.png
+│ ├── telnet_connected.png
+│ ├── firewall_rule_added.png
+│ ├── telnet_blocked.png
+
+---
+
+## **📷 Screenshots**
+1. **Telnet Service Enabled**  
+   ![Telnet Enabled](screenshots/telnet_enabled.png)
+
+2. **Telnet Connected Before Firewall Block**  
+   ![Telnet Connected](screenshots/telnet_connected.png)
+
+3. **Firewall Rule Added for Port 23**  
+   ![Firewall Rule Added](screenshots/firewall_rule_added.png)
+
+4. **Telnet Connection Blocked**  
+   ![Telnet Blocked](screenshots/telnet_blocked.png)
+
+---
+
+## **📑 Notes**
+Detailed methodology → [methodology.md](notes/methodology.md)  
+Analysis of findings → [findings_analysis.md](notes/findings_analysis.md)  
+
+---
+
+## **✅ Conclusion**
+The test successfully showed that the firewall rule effectively blocked port 23, preventing Telnet access. This validates that firewall configurations can control network access to services.
