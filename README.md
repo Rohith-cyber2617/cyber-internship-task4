@@ -22,17 +22,23 @@ This task demonstrates how to:
 ---
 
 ## 📂 Repository Structure
+
 ```
-Task4/
-│── README.md
-│── notes/
-│   ├── methodology.md
-│   ├── findings_analysis.md
-│── screenshots/
-│   ├── telnet_enabled.png
-│   ├── telnet_connected.png
-│   ├── firewall_rule_added.png
-│   ├── telnet_blocked.png
+cyber-internship-task4/
+│
+├── notes/                              # Documentation and analysis
+│   ├── methodology.md                  # Step-by-step firewall configuration process
+│   └── findings_analysis.md             # Observations & conclusions
+│
+├── screenshots/                        # All captured screenshots from the task
+│   ├── windows_defender.png
+│   ├── initial_rules.png
+│   ├── telnet_firewall_configuration.png
+│   ├── type_of_firewall.png
+│   └── firewall_successfully_blocked.png
+│
+│
+└── README.md                           # Main documentation for the task
 ```
 
 ---
