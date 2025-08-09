@@ -36,19 +36,24 @@ Task4/
 ```
 
 ---
+## 📸 Screenshots
 
-## 📷 Screenshots
-1. **Telnet Service Enabled**  
-   ![Telnet Enabled](screenshots/telnet_enabled.png)
+Below are the captured screenshots for Task 4:
 
-2. **Telnet Connected Before Firewall Block**  
-   ![Telnet Connected](screenshots/telnet_connected.png)
+1. **Windows Defender**
+   ![Windows Defender](screenshots/windows%20defender.png)
 
-3. **Firewall Rule Added for Port 23**  
-   ![Firewall Rule Added](screenshots/firewall_rule_added.png)
+2. **Initial Rules**
+   ![Initial Rules](screenshots/initial_rules.png)
 
-4. **Telnet Connection Blocked**  
-   ![Telnet Blocked](screenshots/telnet_blocked.png)
+3. **Telnet Firewall Configuration**
+   ![Telnet Firewall Configuration](screenshots/telnet%20firewall%20configuration.png)
+
+4. **Type of Firewall**
+   ![Type of Firewall](screenshots/type%20of%20firewall.png)
+
+5. **Firewall Successfully Blocked**
+   ![Firewall Successfully Blocked](screenshots/firewall%20successfully%20blocked.png)
 
 ---
 
